@@ -67,13 +67,16 @@ Para executar esta API, você precisará ter o Go instalado em sua máquina e o 
    ```bash
    git clone https://github.com/diogocardoso/API-Products.git
    cd API-Products
-
+   ``` 
 2. Configuração do Docker:
 
 O projeto inclui um arquivo docker-compose.yml que define os serviços da aplicação e do banco de dados MySQL. Para iniciar os serviços, execute:
-
+```bash
 docker-compose up --build
-
+```
 3. Executar a Aplicação:
 
-A aplicação será exposta na porta 8000. Você pode acessá-la em http://localhost:8000.
+A aplicação será exposta na porta 8000. Você pode acessá-la em:
+```bash
+http://localhost:8000.
+```
